@@ -20,55 +20,101 @@
 
 # APB IPs
 apb/apb_node:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 apb/apb_event_unit:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 apb/apb_fll_if:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 apb/apb_gpio:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 apb/apb_i2c:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 apb/apb_pulpino:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 apb/apb_spi_master:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 apb/apb_timer:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 apb/apb_uart:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 apb/apb_uart_sv:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 apb/apb2per:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 
 
 # AXI IPs
 axi/axi2apb:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 axi/axi_mem_if_DP:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 axi/axi_node:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 axi/axi_slice:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 axi/axi_slice_dc:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 axi/axi_spi_master:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 axi/axi_spi_slave:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 axi/core2axi:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 
 adv_dbg_if:
+  server: git@github.com
+  group: pulp-platform
   commit: master
 
 riscv:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 
 zero-riscy:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1
 
 fpu:
+  server: git@github.com
+  group: pulp-platform
   commit: pulpinov1

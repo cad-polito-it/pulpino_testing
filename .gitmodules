@@ -4,4 +4,3 @@
 [submodule "ipstools"]
 	path = ipstools
 	url = git@github.com:cad-polito-it/IPApproX.git
-	branch = vcs-pulpino
