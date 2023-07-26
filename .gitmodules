@@ -1,0 +1,3 @@
+[submodule "sw/apps/pulpino_ri5cy_stls"]
+	path = sw/apps/pulpino_ri5cy_stls
+	url = https://github.com/cad-polito-it/pulpino_ri5cy_stls.git
