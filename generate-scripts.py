@@ -31,11 +31,11 @@ if os.path.exists("ipstools") and os.path.isdir("ipstools"):
     cwd = os.getcwd()
     os.chdir("ipstools")
     execute("git pull", silent=True)
-    execute("git checkout verilator-pulpino")
+    execute("git checkout vcs-pulpino")
     os.chdir(cwd)
     import ipstools
 else:
-    execute("git clone git@iis-git.ee.ethz.ch:pulp-tools/IPApproX ipstools -b verilator-pulpino")
+    execute("git clone git@iis-git.ee.ethz.ch:pulp-tools/IPApproX ipstools -b vcs-pulpino")
     import ipstools
 execute("mkdir -p vsim/vcompile/ips")
 execute("rm -rf vsim/vcompile/ips/*")
@@ -48,6 +48,9 @@ ipdb.export_vsim(script_path="vsim/vcompile/ips", target_tech='umc65')
 ipdb.generate_vsim_tcl("vsim/tcl_files/config/vsim_ips.tcl")
 # generate script to compile all IPs for ModelSim/QuestaSim
 ipdb.generate_vcompile_libs_csh("vsim/vcompile/vcompile_ips.csh")
+
+#TODO: VCS scripts
+#ipdb.export_vcs(script_path="vcs/vcscompile/ips")
 
 # generate Vivado compilation scripts
 ipdb.export_vivado(script_path="fpga/pulpino/tcl/ips_src_files.tcl", alternatives=['riscv'])
