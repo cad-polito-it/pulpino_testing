@@ -1,3 +1,7 @@
 [submodule "sw/apps/pulpino_ri5cy_stls"]
 	path = sw/apps/pulpino_ri5cy_stls
-	url = https://github.com/cad-polito-it/pulpino_ri5cy_stls.git
+	url = git@github.com:cad-polito-it/pulpino_ri5cy_stls.git
+[submodule "ipstools"]
+	path = ipstools
+	url = git@github.com:cad-polito-it/IPApproX.git
+	branch = vcs-pulpino
